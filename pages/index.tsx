@@ -25,7 +25,7 @@ export default function Home() {
           title="Rocket-League-Data-Coach (2).mp4"
         ></iframe>
       </div>
-      <script src="https://player.vimeo.com/api/player.js"></script>
+      <script src="https://player.vimeo.com/api/player.js" async></script>
     </main>
   );
 }
