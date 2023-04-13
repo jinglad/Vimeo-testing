@@ -9,9 +9,14 @@ export default function Home() {
       <h1 className="text-center mt-10 capitalize font-semibold">
         this is a test project for testing video embed
       </h1>
-      <div style={{ padding: "56.25% 0 0 0", position: "relative" }}>
+      <div
+        style={{
+          padding: "75% 0 0 0",
+          position: "relative",
+        }}
+      >
         <iframe
-          src="https://player.vimeo.com/video/816148829?h=553bf87140&amp;badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479"
+          src="https://player.vimeo.com/video/817149218?h=5f46094a98&amp;badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479"
           frameBorder="0"
           allow="autoplay; fullscreen; picture-in-picture"
           allowFullScreen
@@ -22,7 +27,7 @@ export default function Home() {
             width: "100%",
             height: "100%",
           }}
-          title="Rocket-League-Data-Coach (2).mp4"
+          title="Rocket-League-Data-Coach (3)"
         ></iframe>
       </div>
       <script src="https://player.vimeo.com/api/player.js" async></script>
